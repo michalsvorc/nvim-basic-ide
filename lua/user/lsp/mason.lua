@@ -1,13 +1,4 @@
-local servers = {
-	"sumneko_lua",
-	"cssls",
-	"html",
-	"tsserver",
-	"pyright",
-	"bashls",
-	"jsonls",
-	"yamlls",
-}
+local servers = require "user.servers"
 
 local settings = {
 	ui = {
