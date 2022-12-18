@@ -24,6 +24,7 @@ git fetch upstream
 
 - [General](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/keymaps.lua)
 - [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/lsp/handlers.lua#L55)
+- [Surround](https://github.com/kylechui/nvim-surround/blob/v1.0.0/README.md#rocket-usage)
 
 ## Configuration
 
@@ -97,4 +98,5 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
+- [nvim-surround](https://github.com/kylechui/nvim-surround)
 
