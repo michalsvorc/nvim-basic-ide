@@ -99,4 +99,5 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
+- [editorconfig](https://github.com/gpanders/editorconfig.nvim)
 
