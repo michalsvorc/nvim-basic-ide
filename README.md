@@ -20,6 +20,11 @@ git remote add upstream git@github.com:lunarvim/nvim-basic-ide.git
 git fetch upstream
 ```
 
+## Keymaps
+
+- [General](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/keymaps.lua)
+- [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/lsp/handlers.lua#L55)
+
 ## Configuration
 
 ### LSP
