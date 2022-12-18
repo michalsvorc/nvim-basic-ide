@@ -29,14 +29,22 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<A-k>", ":bnext<CR>", opts)
+keymap("n", "<A-j>", ":bprevious<CR>", opts)
+
+-- Reorder buffers
+keymap("n", "<C-A-k>", ":BufferLineMoveNext<CR>", opts)
+keymap("n", "<C-A-j>", ":BufferLineMovePrev<CR>", opts)
+
+-- Select a buffer
+keymap("n", "<A-s>", ":BufferLinePick<CR>", opts)
+
+-- Close buffers
+keymap("n", "<A-q>", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "<A-w>", "<cmd>BufferLinePickClose<CR>", opts)
 
 -- Clear highlights
 keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
-
--- Close buffers
-keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
