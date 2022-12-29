@@ -62,6 +62,7 @@ return packer.startup(function(use)
   use { "kylechui/nvim-surround", tag = "v1.0.0" }
   use { "gpanders/editorconfig.nvim", tag = "v1.3.1"}
   use { "sitiom/nvim-numbertoggle", commit = "34cd7d4c09a59f798e3420286fb94f4d8268f40d" }
+  use { "ggandor/leap.nvim", commit = "e0145906c5f004b23eb6ec876fad55ffd3382ec9" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
