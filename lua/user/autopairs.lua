@@ -1,3 +1,5 @@
+-- https://github.com/windwp/nvim-autopairs
+-- Autopairs for neovim written by lua.
 -- Setup nvim-cmp.
 local status_ok, npairs = pcall(require, "nvim-autopairs")
 if not status_ok then

@@ -1,3 +1,6 @@
+-- https://github.com/wbthomason/packer.nvim
+-- A use-package inspired plugin manager for Neovim.
+-- Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config.
 local fn = vim.fn
 
 -- Automatically install packer

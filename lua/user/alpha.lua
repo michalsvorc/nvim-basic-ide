@@ -1,3 +1,5 @@
+-- https://github.com/goolord/alpha-nvim
+-- A lua powered greeter like vim-startify / dashboard-nvim.
 local status_ok, alpha = pcall(require, "alpha")
 if not status_ok then
   return

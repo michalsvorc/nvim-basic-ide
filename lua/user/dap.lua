@@ -1,3 +1,5 @@
+-- https://github.com/mfussenegger/nvim-dap
+-- Debug Adapter Protocol client implementation for Neovim.
 local dap_status_ok, dap = pcall(require, "dap")
 if not dap_status_ok then
 	return
