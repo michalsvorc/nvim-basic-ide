@@ -43,6 +43,6 @@ vim.opt.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters
 vim.opt.linebreak = true
 
 -- Use faster grep alternatives if possible
-if vim.fn.executable('rg') == 1 then
-  vim.opt.grepprg = 'rg --vimgrep'
+if vim.fn.executable("rg") == 1 then
+  vim.opt.grepprg = "rg --vimgrep"
 end
