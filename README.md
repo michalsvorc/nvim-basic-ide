@@ -103,4 +103,5 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [leap.nvim](https://github.com/ggandor/leap.nvim)
 - [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 - [mbbill/undotree](https://github.com/mbbill/undotree)
+- [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf)
 
