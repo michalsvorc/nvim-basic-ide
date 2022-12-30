@@ -46,3 +46,7 @@ vim.opt.linebreak = true
 if vim.fn.executable("rg") == 1 then
   vim.opt.grepprg = "rg --vimgrep"
 end
+
+-- Load builtin cfilter plugin
+vim.api.nvim_command("packadd cfilter")
+
