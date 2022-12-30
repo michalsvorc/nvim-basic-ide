@@ -1,3 +1,5 @@
+-- https://github.com/akinsho/toggleterm.nvim
+-- A neovim lua plugin to help easily manage multiple terminal windows.
 local status_ok, toggleterm = pcall(require, "toggleterm")
 if not status_ok then
 	return

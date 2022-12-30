@@ -1,3 +1,5 @@
+-- https://github.com/lewis6991/gitsigns.nvim
+-- Git integration for buffers.
 local status_ok, gitsigns = pcall(require, "gitsigns")
 if not status_ok then
   return

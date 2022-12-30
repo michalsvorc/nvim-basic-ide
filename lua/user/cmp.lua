@@ -1,3 +1,5 @@
+-- https://github.com/hrsh7th/nvim-cmp
+-- A completion plugin for neovim coded in Lua.
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then
 	return

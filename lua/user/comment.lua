@@ -1,3 +1,6 @@
+-- https://github.com/numToStr/Comment.nvim
+-- Smart and powerful comment plugin for neovim.
+-- Supports treesitter, dot repeat, left-right/up-down motions, hooks, and more.
 local status_ok, comment = pcall(require, "Comment")
 if not status_ok then
 	return

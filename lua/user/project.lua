@@ -1,3 +1,5 @@
+-- https://github.com/ahmedkhalf/project.nvim
+-- The superior project management solution for neovim.
 local status_ok, project = pcall(require, "project_nvim")
 if not status_ok then
 	return

@@ -1,3 +1,5 @@
+-- https://github.com/nvim-tree/nvim-tree.lua
+-- A file explorer tree for neovim written in lua.
 local status_ok, nvim_tree = pcall(require, "nvim-tree")
 if not status_ok then
   return

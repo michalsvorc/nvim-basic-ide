@@ -1,3 +1,5 @@
+-- https://github.com/akinsho/bufferline.nvim
+-- A snazzy bufferline for Neovim.
 local status_ok, bufferline = pcall(require, "bufferline")
 if not status_ok then
   return
@@ -35,7 +37,7 @@ bufferline.setup {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
-   
+
     tab_selected = {
       fg = { attribute = "fg", highlight = "Normal" },
       bg = { attribute = "bg", highlight = "Normal" },
