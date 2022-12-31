@@ -93,7 +93,6 @@ Optionally use `:cfdo` to execute {cmd} in each file in the quickfix list.
 
 - `:Cfilter` 
 - [bqf signs](https://github.com/kevinhwang91/nvim-bqf#filter-with-signs).
-- `:set modifiable|ma` and delete lines with `dd`
 
 ## Loclist
 
