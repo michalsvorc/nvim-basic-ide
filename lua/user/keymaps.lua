@@ -99,12 +99,9 @@ keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format{ async = true }<cr>", opt
 keymap("n", "<leader>t", "<cmd>ToggleTerm<CR>", opts)
 
 -- leap.nvim
-keymap({'n', 'x', 'o'}, '<leader>s', '<Plug>(leap-forward-to)')
-keymap({'n', 'x', 'o'}, '<leader>S', '<Plug>(leap-backward-to)')
-keymap({'n', 'x', 'o'}, '<leader>x', '<Plug>(leap-forward-till)')
-keymap({'n', 'x', 'o'}, '<leader>X', '<Plug>(leap-backward-till)')
-keymap({'n', 'x', 'o'}, '<leader>gs', '<Plug>(leap-cross-window)')
-
-
-
+keymap({"n", "x", "o"}, "<leader>s", "<Plug>(leap-forward-to)")
+keymap({"n", "x", "o"}, "<leader>S", "<Plug>(leap-backward-to)")
+keymap({"n", "x", "o"}, "<leader>x", "<Plug>(leap-forward-till)")
+keymap({"n", "x", "o"}, "<leader>X", "<Plug>(leap-backward-till)")
+keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 
