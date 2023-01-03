@@ -1,4 +1,4 @@
--- Shorten function name
+-- Shorten function namekey
 local keymap = vim.keymap.set
 -- Silent keymap option
 local opts = { silent = true }
@@ -59,9 +59,6 @@ keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
 -- Plugins --
-
--- NvimTree
-keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", ":Telescope find_files hidden=true <CR>", opts)
