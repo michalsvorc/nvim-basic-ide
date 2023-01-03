@@ -30,5 +30,9 @@ telescope.setup {
         return {"--hidden"}
       end
     },
+    find_files = {
+      -- https://github.com/nvim-telescope/telescope.nvim/wiki/Configuration-Recipes#remove--from-fd-results
+      find_command = { "fd", "--type", "f", "--strip-cwd-prefix" }
+    },
   },
 }
