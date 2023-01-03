@@ -6,6 +6,12 @@ Forked from [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide
 - [Requirements](https://github.com/LunarVim/nvim-basic-ide/blob/master/README.md#install-neovim-08)
 - [Health check](https://github.com/LunarVim/nvim-basic-ide/blob/master/README.md#get-healthy)
 
+## Fork requirements
+
+- [fd](https://github.com/sharkdp/fd): Telescope find files
+- [nnn](https://github.com/jarun/nnn): File picker and explorer
+- [ripgrep (rg)](https://github.com/BurntSushi/ripgrep): Telescope live grep
+
 ## Upstream changes
 
 1. Add upstream
