@@ -103,5 +103,5 @@ keymap({"n", "x", "o"}, "<leader>X", "<Plug>(leap-backward-till)")
 keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 
 --- nnn.nvim
-keymap({"n", "t"}, "<leader>e", "<cmd>NnnExplorer<cr>", opts)
-keymap({"n", "t"}, "<leader>fe", "<cmd>NnnPicker<cr>", opts)
+keymap({"n", "t"}, "<leader>e", "<cmd>NnnExplorer %:p:h<cr>", opts)
+keymap({"n", "t"}, "<leader>fe", "<cmd>NnnPicker %:p:h<cr>", opts)
