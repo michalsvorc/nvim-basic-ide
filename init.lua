@@ -24,4 +24,5 @@ require "user.nvim-surround"
 require "user.leap"
 require "user.nnn-nvim"
 require "user.undotree"
+require "user.text_case"
 

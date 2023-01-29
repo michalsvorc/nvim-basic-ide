@@ -105,3 +105,6 @@ keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 --- nnn.nvim
 keymap({"n", "t"}, "<leader>e", "<cmd>NnnExplorer %:p:h<cr>", opts)
 keymap({"n", "t"}, "<leader>fe", "<cmd>NnnPicker %:p:h<cr>", opts)
+
+--  text-case.nvim
+keymap({"n", "v"}, "ga.", "<cmd>TextCaseOpenTelescope<CR>", { desc = "Telescope" })

@@ -110,4 +110,4 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 - [mbbill/undotree](https://github.com/mbbill/undotree)
 - [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf)
-
+- [johmsalas/text-case.nvim](https://github.com/johmsalas/text-case.nvim)

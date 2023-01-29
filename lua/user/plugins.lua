@@ -68,6 +68,7 @@ return packer.startup(function(use)
   use { "luukvbaal/nnn.nvim", commit = "af12c528b58f44e371eb50d7685e2c97440ba4d5" }
   use { "mbbill/undotree", tag = "rel_6.1" }
   use { "kevinhwang91/nvim-bqf", tag = "v0.9.9", ft = "qf" }
+  use { "johmsalas/text-case.nvim", commit = "2cbe6b6653b46d2ec23bb2ba808b5c1fc78e9382" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
