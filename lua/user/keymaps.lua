@@ -61,15 +61,17 @@ keymap("v", ">", ">gv", opts)
 -- Plugins --
 
 -- Telescope
-keymap("n", "<leader>ff", ":Telescope find_files hidden=true <CR>", opts)
-keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
-keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
-keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
-keymap("n", "<leader>f/", ":Telescope current_buffer_fuzzy_find<CR>", opts)
-keymap("n", "<leader>fr", ":Telescope oldfiles<CR>", opts)
-keymap("n", "<leader>fk", ":Telescope keymaps<CR>", opts)
-keymap("n", "<leader>fy", ":Telescope registers<CR>", opts)
-keymap("n", "<leader>fs", ":Telescope treesitter<CR>", opts)
+keymap("n", "<leader>ff",  ":Telescope find_files hidden=true <CR>", opts)
+keymap("n", "<leader>ft",  ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>fp",  ":Telescope projects<CR>", opts)
+keymap("n", "<leader>fb",  ":Telescope buffers<CR>", opts)
+keymap("n", "<leader>f/",  ":Telescope current_buffer_fuzzy_find<CR>", opts)
+keymap("n", "<leader>fr",  ":Telescope oldfiles<CR>", opts)
+keymap("n", "<leader>fk",  ":Telescope keymaps<CR>", opts)
+keymap("n", "<leader>fy",  ":Telescope registers<CR>", opts)
+keymap("n", "<leader>fs",  ":Telescope treesitter<CR>", opts)
+keymap("n", "<leader>fma", ":Telescope vim_bookmarks all<CR>", opts)
+keymap("n", "<leader>fmf", ":Telescope vim_bookmarks current_file<CR>", opts)
 
 -- Git
 keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)

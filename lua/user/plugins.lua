@@ -69,6 +69,12 @@ return packer.startup(function(use)
   use { "mbbill/undotree", tag = "rel_6.1" }
   use { "kevinhwang91/nvim-bqf", tag = "v0.9.9", ft = "qf" }
   use { "johmsalas/text-case.nvim", commit = "2cbe6b6653b46d2ec23bb2ba808b5c1fc78e9382" }
+  use { "MattesGroeger/vim-bookmarks", commit = "9cc5fa7ecc23b052bd524d07c85356c64b92aeef" }
+  use {
+    "tom-anders/telescope-vim-bookmarks.nvim",
+    commit = "92498cbf7c127dea37c3d27117b60dd7ab9baef4",
+    requires = {"MattesGroeger/vim-bookmarks", opt = false}
+  }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }

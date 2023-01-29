@@ -25,4 +25,4 @@ require "user.leap"
 require "user.nnn"
 require "user.undotree"
 require "user.text_case"
-
+require "user.bookmarks"
