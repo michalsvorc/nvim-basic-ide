@@ -1,11 +1,12 @@
--- https://github.com/lewis6991/gitsigns.nvim
 -- Git integration for buffers.
-local status_ok, gitsigns = pcall(require, "gitsigns")
-if not status_ok then
-  return
-end
+-- https://github.com/lewis6991/gitsigns.nvim
+local M = {
+  "lewis6991/gitsigns.nvim",
+  commit = "ec4742a7eebf68bec663041d359b95637242b5c3",
+  event = "BufReadPre",
+}
 
-gitsigns.setup {
+M.opts = {
   signs = {
     add = { hl = "GitSignsAdd", text = "▎", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },
     change = { hl = "GitSignsChange", text = "▎", numhl = "GitSignsChangeNr", linehl = "GitSignsChangeLn" },
@@ -36,3 +37,5 @@ gitsigns.setup {
     col = 1,
   },
 }
+
+return M
