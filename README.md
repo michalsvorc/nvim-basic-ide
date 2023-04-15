@@ -13,8 +13,13 @@ Telescope:
 
 - [General](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/keymaps.lua)
 - [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/user/lsp.lua#L21)
+- nvim-surround: `:h nvim-surround.usage`
 
 ## Plugins
+
+### Added
+
+- [nvim-surround](https://github.com/kylechui/nvim-surround)
 
 ### Removed
 
