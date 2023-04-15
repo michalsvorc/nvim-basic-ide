@@ -34,6 +34,6 @@
   "project.nvim": { "branch": "main", "commit": "685bc8e3890d2feb07ccf919522c97f7d33b94e4" },
   "telescope.nvim": { "branch": "master", "commit": "203bf5609137600d73e8ed82703d6b0e320a5f36" },
   "toggleterm.nvim": { "branch": "main", "commit": "19aad0f41f47affbba1274f05e3c067e6d718e1e" },
-  "tokyonight-night": { "branch": "main", "commit": "e52c41314e83232840d6970e6b072f9fba242eb9" },
+  "tokyonight-storm": { "branch": "main", "commit": "e52c41314e83232840d6970e6b072f9fba242eb9" },
   "vim-illuminate": { "branch": "master", "commit": "d6ca7f77eeaf61b3e6ce9f0e5a978d606df44298" }
 }
