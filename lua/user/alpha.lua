@@ -1,5 +1,3 @@
--- A lua powered greeter like vim-startify / dashboard-nvim.
--- https://github.com/goolord/alpha-nvim
 local M = {
   "goolord/alpha-nvim",
   event = "VimEnter",
@@ -26,6 +24,11 @@ function M.config()
     dashboard.button("c", " " .. " Config", ":e $MYVIMRC <CR>"),
     dashboard.button("q", " " .. " Quit", ":qa<CR>"),
   }
+  local function footer()
+    return "michalsvorc/nvim-basic-ide"
+  end
+
+  dashboard.section.footer.val = footer()
 
   dashboard.section.footer.opts.hl = "Type"
   dashboard.section.header.opts.hl = "Include"

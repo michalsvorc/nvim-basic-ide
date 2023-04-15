@@ -1,5 +1,3 @@
--- Find, Filter, Preview, Pick. All lua, all the time.
--- https://github.com/nvim-telescope/telescope.nvim
 local M = {
   "nvim-telescope/telescope.nvim",
   commit = "203bf5609137600d73e8ed82703d6b0e320a5f36",
@@ -32,7 +30,7 @@ M.opts = {
   },
   pickers = {
     live_grep = {
-      additional_args = function(opts)
+      additional_args = function()
         return {"--hidden"}
       end
     },

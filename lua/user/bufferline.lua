@@ -1,5 +1,3 @@
--- A snazzy bufferline for Neovim.
--- https://github.com/akinsho/bufferline.nvim
 local M = {
   "akinsho/bufferline.nvim",
   commit = "c7492a76ce8218e3335f027af44930576b561013",

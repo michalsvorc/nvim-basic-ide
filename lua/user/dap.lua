@@ -1,5 +1,3 @@
--- Debug Adapter Protocol client implementation for Neovim.
--- https://github.com/mfussenegger/nvim-dap
 local M = {
   "mfussenegger/nvim-dap",
   commit = "6b12294a57001d994022df8acbe2ef7327d30587",

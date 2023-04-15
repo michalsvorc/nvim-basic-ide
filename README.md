@@ -1,40 +1,24 @@
 # A Basic Stable IDE config for Neovim
 
-Forked from [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide).
-
-- [About](https://github.com/LunarVim/nvim-basic-ide#readme)
-- [Requirements](https://github.com/LunarVim/nvim-basic-ide/blob/master/README.md#install-neovim-08)
-- [Health check](https://github.com/LunarVim/nvim-basic-ide/blob/master/README.md#get-healthy)
+Forked from [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide#readme).
 
 ## Requirements
 
-- [fd](https://github.com/sharkdp/fd): Telescope find files
-- [nnn](https://github.com/jarun/nnn): File picker and explorer
-- [ripgrep (rg)](https://github.com/BurntSushi/ripgrep): Telescope live grep
+Telescope:
+
+- [fd](https://github.com/sharkdp/fd): Find files command.
+- [ripgrep (rg)](https://github.com/BurntSushi/ripgrep): Live grep command.
 
 ## Keymaps
 
-- [General](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/keymaps.lua)
-- [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/main/lua/user/lsp/handlers.lua#L55)
-- [Surround](https://github.com/kylechui/nvim-surround/blob/v1.0.0/README.md#rocket-usage)
+- [General](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/keymaps.lua)
+- [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/user/lsp.lua#L21)
 
 ## Plugins
 
-### Added
-
-- [vim-bbye](https://github.com/moll/vim-bbye)
-- [nvim-surround](https://github.com/kylechui/nvim-surround)
-- [editorconfig](https://github.com/gpanders/editorconfig.nvim)
-- [leap.nvim](https://github.com/ggandor/leap.nvim)
-- [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
-- [mbbill/undotree](https://github.com/mbbill/undotree)
-- [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf)
-- [johmsalas/text-case.nvim](https://github.com/johmsalas/text-case.nvim)
-- [MattesGroeger/vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
-
 ### Removed
 
-- [bufdelete.nvim](https://github.com/famiu/bufdelete.nvim)
+- [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
 
 ## Upstream README
@@ -46,6 +30,8 @@ This config attempts to provide a rock solid fully featured starting point for s
 > What makes it "rock solid"?
 
 All the included plugins are pinned to a version that ensures they are compatible and will not update potentially introducing errors into your config. For every Neovim release I will update this repo along with the community to keep it up to date with the newest versions.
+
+As I mentioned, this config is meant as a starting point for people new to Neovim who want a familiar IDE experience. The config has a very simple structure that makes it easy to add new plugins.
 
 ## Install Neovim 0.9
 
@@ -90,6 +76,19 @@ You'll probably notice you don't have support for copy/paste also that python an
 So let's fix that
 
 First we'll fix copy/paste
+
+- On mac `pbcopy` should be builtin
+
+- On Ubuntu
+
+  ```sh
+  sudo apt install xsel # for X11
+  sudo apt install wl-clipboard # for wayland
+  ```
+
+Next we need to install python support (node is optional)
+
+- Neovim python support
 
   ```sh
   pip install pynvim

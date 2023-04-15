@@ -1,5 +1,3 @@
--- (Neo)Vim plugin for automatically highlighting other uses of the word
--- https://github.com/RRethy/vim-illuminate
 local M = {
   "RRethy/vim-illuminate",
   commit = "d6ca7f77eeaf61b3e6ce9f0e5a978d606df44298",

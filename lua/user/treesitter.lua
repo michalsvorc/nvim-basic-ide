@@ -1,5 +1,3 @@
--- Nvim Treesitter configurations and abstraction layer.
--- https://github.com/nvim-treesitter/nvim-treesitter
 local M = {
   "nvim-treesitter/nvim-treesitter",
   commit = "226c1475a46a2ef6d840af9caa0117a439465500",

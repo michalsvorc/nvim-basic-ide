@@ -1,5 +1,3 @@
--- Autopairs for neovim written by lua.
--- https://github.com/windwp/nvim-autopairs
 local M = {
   "windwp/nvim-autopairs",
   commit = "0e065d423f9cf649e1d92443c939a4b5073b6768",

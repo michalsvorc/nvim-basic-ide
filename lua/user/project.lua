@@ -1,5 +1,3 @@
--- The superior project management solution for neovim.
--- https://github.com/ahmedkhalf/project.nvim
 local M = {
   "ahmedkhalf/project.nvim",
   commit = "685bc8e3890d2feb07ccf919522c97f7d33b94e4",

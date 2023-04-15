@@ -1,5 +1,3 @@
--- Indent guides for Neovim
--- https://github.com/lukas-reineke/indent-blankline.nvim
 local M = {
   "lukas-reineke/indent-blankline.nvim",
   commit = "8299fe7703dfff4b1752aeed271c3b95281a952d",

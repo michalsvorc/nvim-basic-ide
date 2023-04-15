@@ -1,5 +1,3 @@
--- A neovim lua plugin to help easily manage multiple terminal windows.
--- https://github.com/akinsho/toggleterm.nvim
 local M = {
   "akinsho/toggleterm.nvim",
   commit = "19aad0f41f47affbba1274f05e3c067e6d718e1e",

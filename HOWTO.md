@@ -89,11 +89,6 @@ Optionally use `:cfdo` to execute {cmd} in each file in the quickfix list.
   `:clast` - Go to the last item on the list.
   `:cc <n\>` - Go to the nth item.
 
-### Filter quickfix list items
-
-- `:Cfilter` 
-- [bqf signs](https://github.com/kevinhwang91/nvim-bqf#filter-with-signs).
-
 ## Loclist
 
 Populating the location list is done in the exact same way as the quickfix list, except that 
