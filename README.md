@@ -20,6 +20,7 @@ Telescope:
 
 ### Added
 
+- [leap.nvim](https://github.com/ggandor/leap.nvim)
 - [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 

@@ -21,12 +21,6 @@
 - Forward: `*` or `g*` 
 - Backward: `#` or `g#`
 
-### Motion search
-
-- [leap.nvim](https://github.com/ggandor/leap.nvim#how-to-use-it-tldr)
-
-Custom key map: all default keys prefixed with `leader`
-
 ### Telescope search
 
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim#usage)
