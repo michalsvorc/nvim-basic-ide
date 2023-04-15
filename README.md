@@ -13,12 +13,14 @@ Telescope:
 
 - [General](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/keymaps.lua)
 - [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/user/lsp.lua#L21)
+- nnn.nvim: `:h nnn-nnn.nvim-configuration`
 - nvim-surround: `:h nvim-surround.usage`
 
 ## Plugins
 
 ### Added
 
+- [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 
 ### Removed
