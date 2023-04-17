@@ -21,12 +21,12 @@ function M.config()
     replace_netrw = "picker",
     mappings = mappings,
     explorer = {
-      cmd = "nnn",     -- command overrride (-F1 flag is implied, -a flag is invalid!)
+      cmd = "nnn -G",     -- command overrride (-F1 flag is implied, -a flag is invalid!)
       width = 50,        -- width of the vertical split
       side = "botright",  -- or "botright", location of the explorer window
     },
     picker = {
-      cmd = "nnn -a",       -- command override (-p flag is implied)
+      cmd = "nnn -aG",       -- command override (-p flag is implied)
       style = {
         width = 0.9,     -- percentage relative to terminal size when < 1, absolute otherwise
         height = 0.9,    -- ^

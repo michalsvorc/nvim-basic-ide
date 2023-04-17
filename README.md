@@ -4,6 +4,9 @@ Forked from [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide
 
 ## Requirements
 
+- [nnn](https://github.com/jarun/nnn/tree/master/patches): File explorer.
+  Requires to be compiled with [O_GITSTATUS](https://github.com/jarun/nnn/tree/master/patches#list-of-patches) option.
+
 Telescope:
 
 - [fd](https://github.com/sharkdp/fd): Find files command.
