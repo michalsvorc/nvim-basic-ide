@@ -104,3 +104,5 @@ keymap({"n", "x", "o"}, "<leader>x", "<Plug>(leap-forward-till)")
 keymap({"n", "x", "o"}, "<leader>X", "<Plug>(leap-backward-till)")
 keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 
+-- telescope-file-browser.nvim
+keymap("n", "<leader>e", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
