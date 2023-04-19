@@ -104,5 +104,3 @@ keymap({"n", "x", "o"}, "<leader>x", "<Plug>(leap-forward-till)")
 keymap({"n", "x", "o"}, "<leader>X", "<Plug>(leap-backward-till)")
 keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 
---  text-case.nvim
-keymap({"n", "v"}, "ga.", "<cmd>TextCaseOpenTelescope<CR>", { desc = "Telescope" })
