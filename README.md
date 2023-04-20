@@ -2,10 +2,9 @@
 
 Forked from [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide#readme).
 
-## Requirements
+## Dependencies
 
-- [nnn](https://github.com/jarun/nnn/tree/master/patches): File explorer.
-  Requires to be compiled with [O_GITSTATUS](https://github.com/jarun/nnn/tree/master/patches#list-of-patches) option.
+### Optional
 
 Telescope:
 
