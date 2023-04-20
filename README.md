@@ -16,7 +16,6 @@ Telescope:
 
 - [General](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/keymaps.lua)
 - [LSP](https://github.com/michalsvorc/nvim-basic-ide/blob/v0.9.0/lua/user/lsp.lua#L21)
-- nnn.nvim: `:h nnn-nnn.nvim-configuration`
 - nvim-surround: `:h nvim-surround.usage`
 
 ## Plugins
@@ -24,7 +23,6 @@ Telescope:
 ### Added
 
 - [leap.nvim](https://github.com/ggandor/leap.nvim)
-- [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 
 ### Removed
@@ -187,7 +185,7 @@ Just make a new file with your plugin and the configuration in it,
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
-- [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [bufdelete.nvim](https://github.com/famiu/bufdelete.nvim)

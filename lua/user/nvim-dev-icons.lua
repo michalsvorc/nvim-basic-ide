@@ -1,5 +1,5 @@
 local M = {
-  "kyazdani42/nvim-web-devicons",
+  "nvim-tree/nvim-web-devicons",
   event = "VeryLazy",
   commit = "0568104bf8d0c3ab16395433fcc5c1638efc25d4"
 }
