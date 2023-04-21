@@ -19,9 +19,11 @@ function M.config()
   telescope.setup {
     extensions = {
       file_browser = {
+        grouped = true,
         hidden = true,
         hijack_netrw = false,
-        prompt_path = true
+        prompt_path = true,
+        select_buffer = true
       },
     },
   };
