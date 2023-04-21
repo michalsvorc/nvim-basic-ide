@@ -20,7 +20,7 @@ function M.config()
     extensions = {
       file_browser = {
         hidden = true,
-        hijack_netrw = true,
+        hijack_netrw = false,
         prompt_path = true
       },
     },
