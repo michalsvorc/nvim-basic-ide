@@ -27,7 +27,6 @@ Telescope:
 
 ### Removed
 
-- [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
 
 ## Upstream README

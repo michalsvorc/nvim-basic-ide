@@ -60,6 +60,9 @@ keymap("v", ">", ">gv", opts)
 
 -- Plugins --
 
+-- NvimTree
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+
 -- Telescope
 keymap("n", "<leader>ff",  ":Telescope find_files hidden=true <CR>", opts)
 keymap("n", "<leader>ft",  ":Telescope live_grep<CR>", opts)
@@ -105,4 +108,4 @@ keymap({"n", "x", "o"}, "<leader>X", "<Plug>(leap-backward-till)")
 keymap({"n", "x", "o"}, "<leader>gs", "<Plug>(leap-cross-window)")
 
 -- telescope-file-browser.nvim
-keymap("n", "<leader>e", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
+keymap("n", "<leader>fe", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
