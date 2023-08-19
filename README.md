@@ -24,6 +24,7 @@ Telescope:
 - [leap.nvim](https://github.com/ggandor/leap.nvim)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 - [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+- [codeium.vim](https://github.com/Exafunction/codeium.vim)
 
 ### Removed
 
