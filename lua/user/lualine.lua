@@ -23,6 +23,11 @@ function M.config()
     always_visible = true,
   }
 
+  local function ai_assistant()
+    local status = vim.fn["codeium#GetStatusString"]()
+    return 'AI:' .. status
+  end
+
   local diff = {
     "diff",
     colored = false,
@@ -56,7 +61,7 @@ function M.config()
     sections = {
       lualine_a = { "mode" },
       lualine_b = { "branch" },
-      lualine_c = { diagnostics },
+      lualine_c = { diagnostics, ai_assistant },
       lualine_x = { diff, spaces, "encoding", filetype },
       lualine_y = { location },
       lualine_z = { "progress" },
