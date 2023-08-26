@@ -10,6 +10,7 @@ local M = {
     },
     {
       "nvim-tree/nvim-web-devicons",
+      commit = "efbfed0567ef4bfac3ce630524a0f6c8451c5534",
       event = "VeryLazy",
     },
   },
