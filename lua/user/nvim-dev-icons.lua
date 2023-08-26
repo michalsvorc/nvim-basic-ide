@@ -1,7 +1,7 @@
 local M = {
   "nvim-tree/nvim-web-devicons",
   event = "VeryLazy",
-  commit = "e283ab937e0197b37ec5d8013e49495193407324"
+  commit = "efbfed0567ef4bfac3ce630524a0f6c8451c5534"
 }
 
 function M.config()
