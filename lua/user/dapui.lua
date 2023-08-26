@@ -5,6 +5,7 @@ local M = {
   dependencies = {
     {
       "mfussenegger/nvim-dap",
+      tag = "0.6.0",
       event = "VeryLazy",
     },
   },
