@@ -14,6 +14,7 @@ local actions = require "telescope.actions"
 
 M.opts = {
   defaults = {
+    layout_config = { height = 0.99, width = 0.99 },
     prompt_prefix = " ",
     selection_caret = " ",
     path_display = { "smart" },
