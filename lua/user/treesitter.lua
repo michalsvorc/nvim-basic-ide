@@ -1,6 +1,6 @@
 local M = {
   "nvim-treesitter/nvim-treesitter",
-  commit = "226c1475a46a2ef6d840af9caa0117a439465500",
+  tag = "v0.9.1",
   event = "BufReadPost",
   dependencies = {
     {
