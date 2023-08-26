@@ -1,5 +1,6 @@
 local M = {
   "nvim-telescope/telescope-file-browser.nvim",
+  commit = "ad7b637c72549713b9aaed7c4f9c79c62bcbdff0",
   event = "VimEnter",
   dependencies = {
     {
