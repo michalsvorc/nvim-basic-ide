@@ -1,6 +1,6 @@
 local M = {
   "kylechui/nvim-surround",
-  tag = "v2.0.5",
+  tag = "v2.1.1",
   event = "VeryLazy"
 }
 
