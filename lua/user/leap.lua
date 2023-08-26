@@ -1,6 +1,6 @@
 local M = {
   "ggandor/leap.nvim",
-  commit = "98a72ad93c629c49bd7127d342960cc1b159b620",
+  commit = "5efe985cf68fac3b6a6dfe7a75fbfaca8db2af9c",
   event = "BufReadPre"
 }
 
