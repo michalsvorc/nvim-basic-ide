@@ -24,11 +24,11 @@ local M = {
     },
     {
       "L3MON4D3/LuaSnip",
-      commit = "9bff06b570df29434a88f9c6a9cea3b21ca17208",
+      version = "^2.0.0",
       event = "InsertEnter",
       dependencies = {
         "rafamadriz/friendly-snippets",
-        commit = "a6f7a1609addb4e57daa6bedc300f77f8d225ab7",
+        commit = "377d45475b49e37460a902d6d569d2093d4037d0",
       },
     },
     {
