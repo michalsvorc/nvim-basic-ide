@@ -4,7 +4,7 @@ local M = {
   dependencies = {
     {
       "hrsh7th/cmp-nvim-lsp",
-      commit = "0e6b2ed705ddcff9738ec4ea838141654f12eeef",
+      commit = "44b16d11215dce86f253ce0c30949813c0a90765",
     },
     {
       "hrsh7th/cmp-buffer",
